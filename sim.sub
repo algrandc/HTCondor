@@ -1,0 +1,8 @@
+executable = sim.sh
+output = test.out
+error = test.err
+log = test.log
+requirements = (CERNEnvironment =!= "qa")
+transfer_output_files = ""
++JobFlavour = "workday"
+queue
